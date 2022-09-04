@@ -156,6 +156,6 @@ r_device lightwave_rf = {
         .long_width  = 1250, //
         .reset_limit = 1500, // Gap between messages is unknown so let us get them individually
         .decode_fn   = &lightwave_rf_callback,
-        .disabled    = 1,
+        .disabled    = 0,
         .fields      = output_fields,
 };
